@@ -1,5 +1,7 @@
 package Bot::Training::MegaHAL;
-$Bot::Training::MegaHAL::VERSION = '0.01';
+BEGIN {
+  $Bot::Training::MegaHAL::VERSION = '0.02';
+}
 
 use 5.010;
 use Any::Moose;
